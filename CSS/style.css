@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+* {
+  padding: 0px;
+  margin: 0px;
+  outline: 0px;
+  box-sizing: border-box;
+  list-style-type: none;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  flex-direction: column;
+  color: green;
+}
+.header {
+  width: 100vw;
+  height: 15vh;
+  background-color: green;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 30px;
+}
+.container {
+  border: 2px solid green;
+  padding: 30px;
+  margin: 30px;
+  border-radius: 5px;
+}
+.list-group-item {
+  border: 2px solid rgba(0, 128, 0, 0.358);
+  margin: 5px 0px;
+  padding: 10px 5px;
+  border-radius: 5px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.list-group-item div:last-child {
+  min-width: 15%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.list-group-item div:first-child {
+  min-width: 85%;
+}
+.input-item,
+.input-description {
+  border: 2px solid rgba(0, 128, 0, 0.358);
+  height: 40px;
+  width: 250px;
+  padding: 10px 5px;
+  border-radius: 5px;
+  color: green;
+}
+.input-description {
+  margin-top: 5px;
+}
+.submit-btn {
+  background-color: green;
+  color: white;
+  border: none;
+  padding: 11px 25px;
+  border-radius: 5px;
+}
+.title-items {
+  margin-top: 25px;
+}
+.filter {
+  border: none;
+  height: 40px;
+  width: 250px;
+  padding: 10px 5px;
+  border-radius: 5px;
+  color: green;
+  font-size: 15px;
+}
+.fa-trash {
+  color: red;
+  margin-left: 10px;
+}
+.fa-edit {
+  color: blue;
+}
+.submit-btn:hover,
+.fa-edit:hover,
+.fa-trash:hover {
+  cursor: pointer;
+}
+.empty {
+  color: red;
+  font-weight: bold;
+}

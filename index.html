@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="./fontawesome-free-5.15.4-web/css/all.min.css"
+    />
+    <link rel="stylesheet" href="./CSS/style.css" />
+    <title>Item Lister</title>
+  </head>
+  <body>
+    <div class="header">
+      <h1 class="header-title">
+        Item Lister<span style="display: none">123</span>
+      </h1>
+      <input type="text" class="filter" placeholder="Search Items..." />
+    </div>
+    <div class="container">
+      <h2 class="title">Add Items</h2>
+      <form>
+        <input class="input-item" placeholder="Item Name" type="text" />
+        <br /><input
+          class="input-description"
+          type="text"
+          placeholder="Item Description"
+        />
+        <input class="submit-btn" type="submit" value="Add Item" />
+      </form>
+      <h2 class="title-items">Items</h2>
+      <ul id="items">
+        <span class="empty"></span>
+        <li class="list-group-item">
+          <div>Item 1</div>
+          <div>
+            <i class="fas fa-edit"></i
+            ><i class="fa fa-trash" aria-hidden="true"></i>
+          </div>
+        </li>
+        <li class="list-group-item">
+          <div>Item 2</div>
+          <div>
+            <i class="fas fa-edit"></i
+            ><i class="fa fa-trash" aria-hidden="true"></i>
+          </div>
+        </li>
+        <li class="list-group-item">
+          <div>Item 3</div>
+          <div>
+            <i class="fas fa-edit"></i
+            ><i class="fa fa-trash" aria-hidden="true"></i>
+          </div>
+        </li>
+        <li class="list-group-item">
+          <div>Item 4</div>
+          <div>
+            <i class="fas fa-edit"></i
+            ><i class="fa fa-trash" aria-hidden="true"></i>
+          </div>
+        </li>
+      </ul>
+      <script src="./JS/script.js"></script>
+    </div>
+  </body>
+</html>
